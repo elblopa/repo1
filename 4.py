@@ -1,7 +1,11 @@
+#Problema 4
 
-letra = str(input("Ingrese una letra: "))
+pi = 3.1416
+r = float(input("Digite el radio en centimetros: "))
+h = float(input("Digite el alto en centimetros: "))
 
-if letra == "a" or letra == "e" or letra == "i" or letra == "o" or letra == "u":
-    print("Su letra es una vocal")
-else:
-    print("Su letra es una consonante")
+area = 2*pi*r*(h+r)
+vol = pi*h*r*r
+
+print("Area: ", area)
+print("Volumen: ", vol)
